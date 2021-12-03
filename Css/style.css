@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;400&family=Inter&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #242E52;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 38px;
+}
+
+header div {
+    display: flex;
+}
+
+header div h3 {
+    color: #242D52;
+    margin-left: 10px;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header nav ul li {
+    margin-left: 50px;
+}
+
+header img {
+    margin-left: 122px;
+    margin-top: 7px;
+    width: 15,6px;
+    height: 16px;
+}
+
+header button {
+    width: 134px;
+    height: 44px;
+    left: 1140.54px;
+    top: 65px;
+    margin-top: 20px;
+    margin-right: 250px;
+    color: #FFFFFF;
+    background-color: #F3603B;
+    border: none;
+    border-radius: 50px;
+}
+
+main section.invitation {
+    display: flex;
+    padding: 150px;
+}
+
+main section.invitation h1 {
+    color: #232C50;
+    font-size: 58px;
+    line-height: 66px;
+    align-items: center;
+    letter-spacing: -0.035em;
+    width: 439px;
+    height: 198px;
+}
+
+main section.invitation p {
+    color: #000000;
+    font-size: 1.6rem;
+    width: 450px;
+    height: 71px;
+    margin-top: 50px;
+}
+
+main section.invitation button {
+    color: #FFFFFF;
+    background-color: #F3603B;
+    width: 134px;
+    height: 44px;
+    top: 325px;
+    border-radius: 50px;
+    border: none;
+    position: relative;
+    top: 120px;
+}
+ 
+main section.invitation img {
+    width: 680px;
+    height: 625px;
+    top: 213px;
+    letter-spacing: 714px;
+    margin-left: 450px;
+}
+
+.container-different {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px 150px;
+}
+
+.container-different h2 {
+    color: #232851;
+    font-size: 3.6rem;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    max-width: 433px;
+    line-height: 114.6%;
+}
+
+.container-different h4 {
+    color: #323851;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.container-different h2+p {
+    color: #000000;
+    font-size: 1.6rem;
+    max-width: 458px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.container-different h4{
+    position: relative;
+    right: 100px;
+}
+
+main section.buttones p{
+    position: relative;
+    right: 100px;
+}
+
+.container-different h4+p {
+    color: #B3B2B7;
+    font-size: 1.6rem;
+    max-width: 460px;
+    padding-bottom: 20px;
+}
+
+.container-different button {
+    background-color: #F3603B;
+    color: #FFFFFF;
+    border-radius: 30px;
+    height: 43px;
+    width: 69px;
+    border: none;
+    position: relative;
+    top: 35px;
+    right: 200px;
+    padding: 10px 25px;
+}
+
+main section.comments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1298px;
+    height: 478px;
+    top: 1510px;
+    left: 71px;
+    margin-left: 250px;
+    margin-right: 71px;
+}
+
+
+main section.comments div{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 71px;
+}
+
+
+main section.comments article{
+    background-color: #FAFAFA;
+    padding: 20px 200px 20px 50px;
+    justify-content:space-between;
+    width: 445px;
+    height: 219px;
+    }
+
+main section.comments h3{
+    color: #242E53;
+    font-size: 39.2143px;
+    font-weight: bold;
+    padding: 100px;
+}
+
+main section.comments article h5{
+    color: #3F4868;
+    align-items: center;
+    font-size: 16.0714px;
+    font-weight: bold;
+    margin-left: 79%;
+    margin-top: 20px;
+    position: relative;
+    bottom: 40px;
+    width: 87,62px;
+}
+
+main section.comments article p{
+    color: #B9B9C1;
+    line-height: 25,06px;
+    font-weight: 600;
+    font-size: 16px;
+    align-items: center;
+    margin-top: 20px;
+    position: relative;
+    bottom: 50px;
+}
+
+main section.comments article img{
+    position: relative;
+    bottom: 50px;
+    width: 70px;
+    margin-left: 150px;
+}
+
+main section.comments div article.comment1 p{
+    width: 403px;
+}
+
+main section.comments div article.comment2 p{
+    width: 390px;
+}
+
+main section.comments div article.comment3 p{
+    width: 390px;
+}
+
+main section.comments button{
+    color: #FFFFFF;
+    background-color: #F3603B;
+    width: 134px;
+    height: 44px;
+    padding: 10px;
+    border-radius: 50px;
+    margin-top: 35px;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+main section.simplify {
+    display: flex;
+    flex-direction: row;
+    background-color: #F3613C;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: 224px;
+    padding: 8%;
+    margin-top: 150px;
+}
+
+main section.simplify h2{
+    color: #FFFFFF;
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    margin-top: 0px;
+    align-items: center;
+    letter-spacing: -0.005em;
+    width: 438px;
+    height: 96px;
+    position: relative;
+    bottom: 50px;
+}
+
+main section.simplify button {
+
+    background-color: #FFFFFF;
+    color: #F3603B;
+    width: 134px;
+    height: 44px;
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    position: relative;
+    bottom: 50px;
+}
+
+
+.container-footer {
+    background-color: #1E1E26;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 8%;
+} 
+
+.container-footer ul li {
+    list-style: none;
+    line-height: 30px;
+    font-size: 1.6rem;
+    cursor: pointer;
+} 
+
+footer figure i {
+    padding-top: 5rem;
+    margin: 0.6rem;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+footer i:hover {
+    color: #F3603B;
+}
+
+footer div .logo {
+    padding-top: 5px;
+}
+
+footer button {
+    background-color: #F3603B;
+    color: #FFFFFF;
+    width: 63px;
+    height: 42px;
+    border-radius: 50px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+footer p {
+    font-size: 1.2rem;
+    color: #8C8C94;
+    margin-top: 4rem;
+    padding-left: 6.5rem;
+}
+
+.container-footer ul li:hover {
+    color: #F3603B;
+}
+
+footer input {
+    width: 200px;
+    height: 44px;
+    background-color: #FFFFFF;
+    color: #A0A0A0;
+    border: none;
+    border-radius: 50px;
+    padding: 1.5rem;
+}
+
+
+
+@media (max-width: 375px){
+
+header div img{
+    margin-top: 50%;
+}
+
+main section.invitation div h1{
+    margin-top: 700px;
+    justify-content: center;
+    width: 100%;
+}
+
+main section.invitation div p{
+    margin-top: 600%;
+    margin-left: 150px;
+    font-size: 100px;
+    justify-content: center;
+}
+
+main section.invitation div{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 50%;
+}
+
+main div.container-different article h2{
+    margin-top: 2000px;
+    justify-content: center;
+}
+
+main section.buttones article{
+    margin-top: 30px;
+    margin-left: 200px;
+    justify-content: center;
+}
+
+main section.comments div article{
+    margin-top: 50px;
+    justify-content:space-between;
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+main footer.container-footer{
+    margin-top: 5000px;
+    width: 100%;
+}
+
+}
+
+
+@media (min-width: 1440px){
+    /*lapto*/
+}
+
+
+
+
+
+
